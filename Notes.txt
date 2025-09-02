@@ -1,0 +1,21 @@
+lists-->lists is basically like array
+
+1] if we want to add any element in list we can use append this is simplest way users.append()
+
+2]if we want to append multiple element in list we use extend syntax is user.extend(["",""])
+
+3]if we want to insert any element at particular position we use insert user.insert(position number in integer) user.insert(0)
+
+4]If we want to remove any element then we use pop function users.pop(integer number of the position of element)
+
+5]counting in lists starts with 0
+
+6]we can also use remove function if we are sure to remove a given number in list number.remove(integer)
+
+7]for accessing 2d list we must use i,j in print and in for loop
+
+8]for appending more than 1 element it should .append(["",""])
+
+9]round function is used to balance digits after decimal round(some_integer,2)
+
+10]if u are using range loop in list then it should be len(data)-1 list starts index from 0 so it will go till  4 while as len will be 5 but index will be till 4 so it will give error for sure(stucked many times)
