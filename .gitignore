@@ -1,22 +1,39 @@
-# VS Code
-.vscode/
-
-# Python
+# Ignore Python cache files
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-*.log
+*.so
 
-# Environment files
-.env
+# Ignore virtual environment folders
 venv/
-.venv/
+.env/
+env/
+.conda/
+*.conda
 
-# System files
+# Ignore VS Code settings
+.vscode/
+*.code-workspace
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore system files
 .DS_Store
 Thumbs.db
 
-# Others
-*.sqlite3
-*.db
+# Ignore logs
+*.log
+
+# Ignore any compiled files
+*.dll
+*.exe
+*.class
+*.o
+*.out
+
+# Ignore Anaconda-related files
+.conda/
+conda-meta/
+pkgs/
