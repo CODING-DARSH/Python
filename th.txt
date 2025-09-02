@@ -1,0 +1,301 @@
+Programming lang:
+
+programming | scripting  lang
+
+programming : starting point : void main , c, c++,java,
+
+scripting lang : javascript python
+
+
+2 type of prog| script 
+
+1)server side : run --> console
+2)client side : run --> end user : browser
+
+2 typed of lang: 
+* statically typed: when you declare a variable you have to provide data type
+		     int a =100;
+	             c,cpp,java		
+* dynamically type: when you declare a variable you dont have to provide data type
+ 	            :compiler | inter
+		     no =100	
+		    js,python	
+
+
+use case:
+1)desktop application | games
+2)webpplication    : Django,fast -> facebook,insta..
+3)data science      : 
+
+history:
+
+
+installation:
+
+2 can write python programme in 2 ways
+as script
+inside file .py
+
+
+type casting:
+
+int a = 90.90
+printf(a) 90 --> float dattype int type
+
+float f = 100.90
+int x = (int)f;
+
+implicit type casting         explicit 
+
+
+in explicit typecasr
+100 --> float : broder typecase
+
+100.20 --> int : narrow typecast
+
+
+int -->int
+float --> float int
+
+operators:
+operators are special symbols which used to perfrom operation on operands
+
+type of operators:
+
+unery operators  : it required only operand [python does not have unery operators...] ++a , --b
+binery operators : it required min 2  operand
+ternery operators : it required min 3 only operand
+
+
+aritmetic operator: + ,- ,*,/,% , //,**
+logical oper      : and or not 
+relational ope    : <,>,==,<=,>=,!=,
+asignment op      : = , +=,-=,....
+biwise op         : ...
+
+membership op :  in ,not in
+identity op   : is ,is not
+
+ternery :  ? :
+
+
+
+asignment ope:  = right side value assign to left side variable...
+task 1: 
+take 2 no from user
+no1 = 100
+no2 = 200
+
+print no1 = 200, no2 = 100 : swap 
+1)with using temp variable
+2)without using 3rd variable
+
+
+
+decision making statement:
+
+1(if else)
+2)switch case
+3)loops
+
+if condition{
+	
+}
+else{
+
+}
+
+if condition:
+	if block
+	.
+	.
+	.
+	.
+	.
+else:
+	else block
+	.
+	.
+	.
+	.
+
+indentations		
+
+logical operators
+
+and
+or
+not
+
+cond1 and cond2
+T     T     T
+F     -     F
+T     F     F
+
+cond1 or cond2
+T     -    T
+F    T     T
+F    F     F
+
+
+if else
+switch cas3 --> match case
+loops
+
+
+type of loops:
+
+entery control loops
+for, while
+exit control loops
+do while
+
+python does not have do while loop
+
+for loop:
+for(int i=1;i<=10;i++){
+	printf("%d",i);
+}
+
+for task 1:
+get number from user and print table:
+5
+
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+..10
+
+get number from user and print factorial:
+5! = 5 * 4 * 3 * 2 * 1 = 120
+
+Reverse no : 123 321
+
+LCM OF 2 numbe
+
+10 15 =30
+
+10 20 30
+15 30
+
+
+HFC : of 2 nos
+dynamic armstrong no
+
+153 -->3 digit 1 + 125 + 27 = 153
+1634 --> 1 + 1296 + 64 = 1634
+
+string:
+string is immutable:
+x = "ram" -->chnage
+x[0] = "R"  # Error: strings are immutable in Python
+string stores data in index :
+string is iterable: loop through string
+string subsctiable: we can access single value...
+
+string char stores data in ascci value
+ascci ==  unicode
+
+
+remove space from between string:
+hi this is python
+hithisispython
+
+check howmany vowels in string: a e i o u
+
+declare 1 string and find index of that char
+
+java
+a
+1
+
+find index... use own logic
+--------------------------
+Python ds:
+1)list
+ * list is dynamic
+ * list is mutable
+ * list is ordered
+ * list is iterable
+ * list can store any data type
+ * list can store duplicate values
+ * list is subscriptable
+ * list is heterogeneous
+ * data typr of list is list
+ * list is created using square brackets []
+ * list can be nested
+ * list can be sliced
+ * list can be concatenated
+
+2)tuple
+ * tuple is dynamic
+ * tuple is  immutable
+ * tuple is ordered
+ * tuple is iterable
+ * tuple can store any data type
+ * tuple can store duplicate values
+ * tuple is subscriptable
+ * tuple is heterogeneous
+ * data typr of  tuple is tuple
+ * tuple is created using square brackets ()
+ * tuple can be nested
+ * list can be concatenated
+
+
+3)set
+4)dictionary
+1)dict does not allow duplicate keys
+2)dict allows duplicate values
+1)dict is dynamic
+2)dict is mutable
+3)dict is unordered
+4)dict is iterable
+5)dict subscriptable
+6)dict is heterogeneous
+7)dict store key value pair {}
+8)dict is created using curly braces {}
+9)dict can be nested
+10)dict can be concatenated
+
+
+functions:
+function is a block of code which is used to perform specific task
+use | advantage of function:
+1)reusability
+
+
+
+type of functions:
+pre defined function
+user defined function
+--------------------
+4 type of functions
+1)without argument and without return type
+2)with argument and without return type
+3)without argument and with return type
+4)with argument and with return type
+
+
+void demo():
+int add()
+
+function declare:
+def demo():
+	body
+
+def demo():
+	body
+	return
+
+
+
+
+
+
+Hello
+Hello
+python
+fun 
+fun
+file
+handling

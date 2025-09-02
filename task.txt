@@ -1,0 +1,34 @@
+ 1)Check if String Contains Only Digits
+ #s = "12345" True s ="abc123" False
+
+
+
+please enter name or exit("exit" to exit):
+if user insert name add it to list 
+and if user typ exit exit code and print list of names
+
+
+menu drive code:
+press 1 for add data in dict
+    please enter your name: raj
+    please enter your city name: delhi
+    add data in dict..
+
+press 2 for view data in dict
+    view data in dict..
+    raj : delhi
+
+press 3 for delete data in dict
+    please enter your name: raj :validation -->
+    data deleted successfully
+
+press 4 for update your city name:
+    please enter your name: raj : you have validation...
+    please enter your new city name: mumbai
+    data updated successfully
+
+press 5 for exit..
+
+
+hint do while match case...
+
