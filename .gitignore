@@ -1,0 +1,22 @@
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Environment files
+.env
+venv/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Others
+*.sqlite3
+*.db
