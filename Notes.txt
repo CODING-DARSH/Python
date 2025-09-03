@@ -19,3 +19,15 @@ lists-->lists is basically like array
 9]round function is used to balance digits after decimal round(some_integer,2)
 
 10]if u are using range loop in list then it should be len(data)-1 list starts index from 0 so it will go till  4 while as len will be 5 but index will be till 4 so it will give error for sure(stucked many times)
+
+============================================================================================================================
+Dictionary
+
+1]we can directly update a dict using update function like states.update({})
+
+2]we can also add keys and value in dict like states["wb"]="kolkata" 
+
+3]The data before : is called key and after : is called value and if u wanna access both then it is .items
+
+4]data.pop(some key) and it will remove specific item while data.popitem(nothing should be written here) and it will remove last item
+
