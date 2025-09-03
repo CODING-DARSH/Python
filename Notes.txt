@@ -31,3 +31,36 @@ Dictionary
 
 4]data.pop(some key) and it will remove specific item while data.popitem(nothing should be written here) and it will remove last item
 
+============================================================================================================================
+
+function
+**-->>>*args
+def function_name(*args)-->>function call--->function_name("ram","shyam"....)
+
+
+--->lambda
+variable_name =lambda variable_name1: task to be performed
+variable_name(value assign)
+
+
+-->Map --->Map is used for iterarting data inside lists it will complete the task which is assign in lambda
+-->Any type of condtion statement like if else etc cannot be given as u cannot change size 
+variable_name=map(lambda x:task_To_be_performed,variable_data_stored)
+
+-->Filter it is same like map but here u can change size of list and u can use condtional statement
+-->filter(lambda x:if x%2==0,data)
+
+
+combine of map and filter and lambda
+
+upperSname = map(lambda x:x.upper(),filter(lambda x:x.startswith("s"),users))
+
+
+--->>inner function
+
+def outer();
+    def inner():
+    //body
+x=outer()   //x=address of function
+x()
+

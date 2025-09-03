@@ -205,18 +205,21 @@ names=["ram","lakhan","sita","madam"]
 
 # Write a program to swap keys and values in a dictionary safely (values must be unique).
 
-data={"Shyam":100,"Jay":300,"Dilip":500,"Ankur":700}
-sort={}
-# for i,j in data.items():
-#     sort[j]=i
+# data={"Shyam":100,"Jay":300,"Dilip":500,"Ankur":700}
+# sort={}
+# # for i,j in data.items():
+# #     sort[j]=i
+# # print(sort)
+# names=list(data.keys())
+# salaries=list(data.values())
+# print(salaries)
+# n=len(salaries)
+# for i in range(n//2):
+#     salaries[i],salaries[n-i-1]=salaries[n-i-1],salaries[i]
+# print(salaries)
+# for i in range(len(data)):
+#     sort[names[i]]=salaries[i]
 # print(sort)
-names=list(data.keys())
-salaries=list(data.values())
-print(salaries)
-n=len(salaries)
-for i in range(n//2):
-    salaries[i],salaries[n-i-1]=salaries[n-i-1],salaries[i]
-print(salaries)
-for i in range(len(data)):
-    sort[names[i]]=salaries[i]
-print(sort)
+
+# ============================================================================================================================
+
