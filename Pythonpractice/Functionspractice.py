@@ -46,6 +46,9 @@
 # UpperCase=map(lambda x:x.upper(),data)
 # print(list(UpperCase))
 
-users = ["naman","sumit","bob","raj","jay","madam","sanjay"]
-sorted=map(lambda x:x.upper(),filter(lambda y:y.startswith("s"),users))
-print(list(sorted))
+# users = ["naman","sumit","bob","raj","jay","madam","sanjay"]
+# sorted=map(lambda x:x.upper(),filter(lambda y:y.startswith("s"),users))
+# print(list(sorted))
+
+for i in range(1,10,+2):
+    print(i)

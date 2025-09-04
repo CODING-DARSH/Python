@@ -64,3 +64,23 @@ def outer();
 x=outer()   //x=address of function
 x()
 
+
+**--->Higher order function
+
+Higher order function is  basically creating a single function for calling multiple functions 
+
+for e.g
+# def get_names(students):  -->this is child function or sub function
+# def  get_avg_score(students):---> this is child function or sub function
+
+def process_students(students,choice): ---->this is parent function
+return choice(students)
+1]
+once u enter choice it works like this 
+choice==names
+2]
+process_students(students,get_names) is called 
+3]
+get_names==choice
+4] 
+Therefore get_names(students) is called which is inside def process_students
