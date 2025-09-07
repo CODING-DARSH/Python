@@ -6,7 +6,7 @@ class OLA(ABC):
 #once u give this as abstraction u cant create object for this
 
 class Car(OLA):
-    def __init__(self,km):      #we have declared constructor here
+    def __init__(self,km):      #we have declared constructor here                      
         self.km=km
         self.rate=15
     def CalculateFare(self):
