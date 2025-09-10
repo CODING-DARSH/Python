@@ -9,7 +9,7 @@ def order_food(func):#3
 @order_food#2
 def throwing_party(persons):
     print("Party is for ",persons)
-throwing_party(110)#1
+throwing_party(210)#1
 
 #110 is being passed inside inner function
 #func(100) will give value in throwing party becoz func=throwing_party
