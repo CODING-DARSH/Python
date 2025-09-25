@@ -20,4 +20,4 @@ class ElectricCar(Car):
 Ec=ElectricCar("BMW",2025,5,12000)
 Ec.displayvehicle()
 Ec.displayCar()
-Ec.displayElectricCar()
+Ec.displayElectricCar() #
